@@ -1,0 +1,302 @@
+/*Modifier*/
+
+body {
+  font-size: .875rem;
+  background-color: #1a2035; 
+}
+
+span,th{
+  color: #9800BA;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr, td{
+  color : #878d9b;
+}
+
+.table th, .table td {
+  padding: 0.4em !important;
+  vertical-align: middle !important;
+}
+
+h1, h2, h3{
+  color: #EFF2F6;
+}
+
+#sidebarMenu{
+  background-color: #2b3248; 
+}
+
+#navBarTop{
+  background-color: #000B28;  
+}
+
+#aboutUsText{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; 
+  color : #878d9b;
+  font-size: 2em;
+  text-align: justify;
+}
+
+#aboutUsCopy{
+  color : #9800BA;
+}
+/*De base*/
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/* Page ASK A QUESTION */
+
+#inputObjetQuestion{
+  margin-top: 5%;
+}
+
+#divDescriptionQuestion{
+  margin-top:3%;
+}
+
+#inputDescriptionQuestion{
+  height : 15em;
+}
+
+#btnEnvoisQuestion,#btnSaveTicket, #btnSaveProjet{
+  margin-top:3%;
+}
+
+/* Page Create a Ticket */
+
+#ticketStatus, #projectStatus, #ticketDomain, #projectDomain, #inputClientNumber{
+  margin-top:3%;
+}
+
+#inputDescriptionTicket{
+  height : 15em;
+}
+
+
+.textSignIn{
+ color: white;
+}
+
+.spaceDiv{
+  margin-top: 30px;
+}
+
+/*
+ * Sidebar
+ */
+
+ #signOutMenu{
+  float:right;
+  font-size:18px;
+ }
+
+ .titleMenu{
+    color : #9800ba;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #00081e; 
+    display : block;
+    width: 100%;
+    padding : 3%;
+    border-radius: 10px;
+ }
+
+.table{
+  background-color: #202940;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #878d9b;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #9800BA;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.sidebar-label{
+  color: white;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+  }
+
+/* Page Ticket */
+
+.filter-form{
+  width: 10em;
+  display: inline !important;
+  margin-right: 2em;
+}
+
+#boxFilter{
+  display: inline !important;
+}
+
+#btnFilter #btnNewTicket{
+  margin: -0.5em 0em 0em 2em !important;
+}
+
+#btnNewTicket{
+  background-color: #00081e;
+  float:left;
+  display:inline;
+  border-radius: 1em;
+}
+#form-filter{
+  display: inline-block !important;
+}
+
+.tabTicket{
+  margin-top: 3em !important;
+}
+
+.ticket-label{
+  margin-top: 2em;
+  color: white;
+}
+
+#title-ticket{
+  margin: 0em;
+}
+
+.lienTab{
+  float:left;
+  display:block;
+  width:5em; 
+  background-color: #1A2035 ;
+}
+
+.currently{
+  background-color: #E7E441;
+  color : black;
+  height: auto;
+  width: 5em;
+  border-radius: 2px;
+}
+.notStarted{
+  background-color: #E75539;
+  color : black;
+  height: auto;
+  width: 5em;
+  border-radius: 2px;
+}
+
+.finish{
+  background-color: #65DF76;
+  color : black;
+  width: 5em;
+  border-radius: 2px;
+}
+.attrAndNotStarted{
+  background-color: #EE8E3E;
+  color : black;
+  height: auto;
+  width: 5em;
+  border-radius: 2px;
+}
+
+}
